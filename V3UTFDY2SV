@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/vc/status-list/2021/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "https://me50rongxin.github.io/dcc-status-test/V3UTFDY2SV",
+  "type": [
+    "VerifiableCredential",
+    "StatusList2021Credential"
+  ],
+  "credentialSubject": {
+    "id": "https://me50rongxin.github.io/dcc-status-test/V3UTFDY2SV#list",
+    "type": "StatusList2021",
+    "encodedList": "H4sIAAAAAAAAA-3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAP4GcwM92tQwAAA",
+    "statusPurpose": "revocation"
+  },
+  "issuer": "did:key:z6MktX5qZqmCSXw6q4Mh9kVky1aMU5DptPeCvJrDnHTVvzaL",
+  "issuanceDate": "2023-09-19T13:33:14.538Z",
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2023-09-19T13:33:14Z",
+    "verificationMethod": "did:key:z6MktX5qZqmCSXw6q4Mh9kVky1aMU5DptPeCvJrDnHTVvzaL#z6MktX5qZqmCSXw6q4Mh9kVky1aMU5DptPeCvJrDnHTVvzaL",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "zPz4Ec8HhgEHbxjgtoQvdZ6giFjrx6Tf4ujEDW74Cd34vzgjK3eipkkwDZPXNANtZ4agk3gMG6Fvi5QfLizb6ENf"
+  }
+}
